@@ -1,12 +1,13 @@
 html{
-    background-color: rgb(242, 240, 237);
+    background-color: rgb(219, 217, 215);
 }
 .main{
     height: 75vh;
-    width: 25vw;git 
+    width: 25vw;
     margin-top: 6%;
     margin-left: 35%;
     border-radius: 15px;
+    background-color: rgb(235, 233, 233);
 }
 .pic{
     width: 100%;
