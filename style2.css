@@ -1,8 +1,8 @@
 html{
-    background-color: rgb(177, 177, 224);
+    background: linear-gradient(to right, #7a7a7a, #0000FF, #ADD8E6);
 }
 .main{
-    background-color: bisque;
+    background-color: rgba(254, 254, 254, 0.2);
     height: 120vh;
     width: 90vw;
     margin-top: 3%;
@@ -11,23 +11,25 @@ html{
     justify-items: center;
     align-content: center;
     border-radius: 15px;
+    
 }
 .cont1{
     height: 90%;
     width: 90%;
-    background-color: aliceblue;
+    background-color: rgb(253, 245, 245);
     justify-items: center;
     align-content: center;
     border-radius: 15px;
 }
 #you{
     text-align: center;
+    font-size: 24px;
+    color: rgb(63, 63, 248);
 }
 #he1{
     text-align: center;
 }
 .cont2{
-    background-color: rgb(211, 210, 208);
     height: 80%;
     width: 90%;
     display: flex;
@@ -35,14 +37,15 @@ html{
     border-radius: 15px;
 }
 .cont3{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     height: 90%;
     width: 30%;
     margin-top: 3%;
     border-radius: 15px;
 }
 .card{
-    background-color: aliceblue;
+    
+    background-color: rgb(236, 231, 231);
     height: 50%;
     width: 90%;
     margin-top: 5%;
@@ -52,16 +55,30 @@ html{
 }
 .btn{
     width: 95%;
-    height: 25px;
+    height: 35px;
     background-color: blue;
     border-radius: 15px;
     padding: 1%;
     color: aliceblue;
+    position: relative;
+    top: 15px;
+}
+.btn2{
+    text-align: center;
+    position: relative;
+    bottom: 94vh;
+    left: 46.5vw;
+    background-color: yellow;
+    border-radius: 15px;
+    width: 7vw;
 }
 .para{
     color: rgb(27, 27, 211);
 }
-#you{
-    font-size: 24px;
-    color: rgb(63, 63, 248);
+.head1{
+    position: relative;
+    top: 15px;
+}
+li{
+    margin-bottom: 9px;
 }
