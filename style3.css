@@ -68,6 +68,8 @@ p{
     align-items: center;
     justify-content: space-evenly;
     display: inline-flex;
+    border: 2px solid #ddd;
+    border-radius: 15px;
 }
 .cont1{
     height: 60%;
