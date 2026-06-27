@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+          background-color: rgb(191, 190, 189);
+            width: 80vw;
+            height: 80vh;
+            margin-top: 8vh;
+            margin-left: 8vw;
+            display: grid;
+            grid-template-columns: 0.6fr 1.2fr 1.2fr;
+            grid-template-rows: 0.7fr 1.25fr 1.25fr 0.7fr;
+            grid-gap:15px;
+            padding: 15px;
+            border: 2px solid rgb(85, 84, 84);
+            border-radius: 10px;
+            grid-template-areas: 
+            "header header header"
+            "sidebar content1 content1"
+            "sidebar content2  content3"
+            "footer footer footer";
+        }
+        .box{
+            background-color: azure;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        #box1{
+            grid-area: header;
+        }
+        #box2{
+            grid-area: sidebar;
+        }
+        #box3{
+            grid-area: content1;
+        }
+        #box4{
+            grid-area: content2;
+        }
+        #box5{
+            grid-area: content3;
+        }
+        #box6{
+            grid-area: footer;
+        }
+        /* #box1{
+            grid-column: 1/4;
+        }
+        #box2{
+            grid-row: 2/4;
+        }
+        #box3{
+            grid-column: 2/4;
+        }
+        #box6{
+            grid-column: 1/4;
+        } */
+    </style>
+</head>
+<body>
+     <div class="cont">
+        <div class="box" id="box1">Header</div>
+        <div class="box" id="box2">Sider Bar</div>
+        <div class="box" id="box3">Content 1</div>
+        <div class="box" id="box4">Content 2</div>
+        <div class="box" id="box5">Content 3</div>
+        <div class="box" id="box6">Footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .cont{
+            height: 60vh;
+            width: 90vw;
+            position: relative;
+            top: 20vh;
+            left: 4vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 80%;
+            width: 90%;
+            background-color: black;
+        }
+        #box1{
+            align-content: center;
+            position: relative;
+            bottom: 20px;
+        }
+        .text{
+            color: aliceblue;
+        }
+        .image{
+            height: 100%;
+            width: 100%;
+        }
+        .github-hero{
+            text-align: center;
+            color: rgb(244, 236, 236);
+        }
+    </style>
+</head>
+<body>
+    <div class="github-hero">
+    <h1 style="font-size: 48px;">Code, command, and collaborate</h1>
+    <p>AI that works where you do, whether in your editor,<br> on the 
+       command line, or across GitHub.</p>
+    </div>
+
+    <div class="cont">
+        <div class="box" id="box1">
+                <h1 class="text">Make your editor your most powerful accelerator</h1>
+    <p class="text">
+        Copilot in your editor does it all, from explaining concepts and completing code,<br>to proposing edits and validating files with agent mode.
+    </p>
+    <a href="#">Explore Copilot in the IDE &gt;</a>
+
+        </div>
+        <div class="box">
+            <img class="image" src="https://images.ctfassets.net/8aevphvgewt8/36rqLbFzJsdRRFHNM4TXIU/afdb59a69ee38661aed3e66f73970ce2/github-copilot-agent-mode.png?w=1440&fm=webp&q=90">
+        </div>
+    </div>
+</body>
+</html>
